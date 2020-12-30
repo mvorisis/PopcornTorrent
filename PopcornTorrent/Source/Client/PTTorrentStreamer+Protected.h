@@ -6,7 +6,7 @@
 #import <libtorrent/magnet_uri.hpp>
 #import <libtorrent/read_resume_data.hpp>
 #import <libtorrent/write_resume_data.hpp>
-#import <GCDWebServer/GCDWebServer.h>
+#import "GCDWebServer.h"
 
 /**
  Variables to be used by `PTTorrentStreamer` subclasses only.
