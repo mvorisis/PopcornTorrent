@@ -32,6 +32,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		21E21F6925C0E4DD001BD8F9 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E21F6825C0E4DD001BD8F9 /* CoreServices.framework */; };
 		23D8E902259CDD3200E33287 /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8E4259CDD3200E33287 /* GCDWebServerFunctions.h */; };
 		23D8E903259CDD3200E33287 /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8E4259CDD3200E33287 /* GCDWebServerFunctions.h */; };
 		23D8E904259CDD3200E33287 /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8E5259CDD3200E33287 /* GCDWebServerPrivate.h */; };
@@ -114,8 +115,6 @@
 		23D8E951259CDD3300E33287 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E900259CDD3200E33287 /* GCDWebServerFileRequest.m */; };
 		23D8E952259CDD3300E33287 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E901259CDD3200E33287 /* GCDWebServerURLEncodedFormRequest.h */; };
 		23D8E953259CDD3300E33287 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E901259CDD3200E33287 /* GCDWebServerURLEncodedFormRequest.h */; };
-		23D8E973259CDFF900E33287 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D8E972259CDFF900E33287 /* MobileCoreServices.framework */; };
-		23D8E974259CE00300E33287 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CEEA9C227DCA3B00DBAD3A /* SystemConfiguration.framework */; };
 		23D8E97C259CE0EF00E33287 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D8E97B259CE0EF00E33287 /* MobileCoreServices.framework */; };
 		23D8E97E259CE0F800E33287 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D8E97D259CE0F800E33287 /* SystemConfiguration.framework */; };
 		4D0699F41D96F56100D17065 /* PopcornTorrentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F43411CA37CF800955B33 /* PopcornTorrentTests.m */; };
@@ -535,6 +534,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21E21F6825C0E4DD001BD8F9 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		23D8E8E4259CDD3200E33287 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
 		23D8E8E5259CDD3200E33287 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
 		23D8E8E6259CDD3200E33287 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
@@ -801,8 +801,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9CEEA9D227DCA3B00DBAD3A /* SystemConfiguration.framework in Frameworks */,
-				23D8E974259CE00300E33287 /* SystemConfiguration.framework in Frameworks */,
-				23D8E973259CDFF900E33287 /* MobileCoreServices.framework in Frameworks */,
+				21E21F6925C0E4DD001BD8F9 /* CoreServices.framework in Frameworks */,
 				4D2996671EE431B600737894 /* MediaPlayer.framework in Frameworks */,
 				4DCB39341E8444CA00388374 /* UIKit.framework in Frameworks */,
 			);
@@ -1141,6 +1140,7 @@
 		8E2CD12BDC635A45AF0F2F86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				21E21F6825C0E4DD001BD8F9 /* CoreServices.framework */,
 				23D8E97D259CE0F800E33287 /* SystemConfiguration.framework */,
 				23D8E972259CDFF900E33287 /* MobileCoreServices.framework */,
 				23D8E97B259CE0EF00E33287 /* MobileCoreServices.framework */,
@@ -1396,7 +1396,7 @@
 					TestTorrent,
 				);
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = PopcornTime;
 				TargetAttributes = {
 					4D97E8621D99B5E6009FEF7E = {
@@ -1422,10 +1422,9 @@
 			};
 			buildConfigurationList = 922F432C1CA37CF800955B33 /* Build configuration list for PBXProject "PopcornTorrent" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				Base,
 				en,
 				ar,
@@ -2048,7 +2047,7 @@
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -2057,7 +2056,7 @@
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -2098,7 +2097,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntorrent;
 				PRODUCT_NAME = PopcornTorrent;
 				SKIP_INSTALL = YES;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				USER_HEADER_SEARCH_PATHS = "/usr/include/net /usr/include/netinet/";
 			};
 			name = Debug;
@@ -2141,7 +2140,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntorrent;
 				PRODUCT_NAME = PopcornTorrent;
 				SKIP_INSTALL = YES;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				USER_HEADER_SEARCH_PATHS = "/usr/include/net /usr/include/netinet/";
 			};
 			name = Release;
@@ -2155,7 +2154,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntorrent.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TVOS_DEPLOYMENT_TARGET = 10.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -2168,7 +2167,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntorrent.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TVOS_DEPLOYMENT_TARGET = 10.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -2176,19 +2175,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -2216,7 +2225,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -2226,19 +2235,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -2260,7 +2279,7 @@
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2280,7 +2299,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/PopcornTorrent/Supporting Files/iOS.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = (
@@ -2302,7 +2321,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
@@ -2321,7 +2340,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/PopcornTorrent/Supporting Files/iOS.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = (
@@ -2343,7 +2362,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
@@ -2354,13 +2373,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/PopcornTorrentTests/iOS.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntorrent.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -2370,13 +2389,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/PopcornTorrentTests/iOS.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntorrent.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};

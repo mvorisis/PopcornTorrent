@@ -332,7 +332,9 @@ using namespace libtorrent;
     self.selectionBlock =  nil;
     selectedFileIndex = -1;
     
-    if (self.mediaServer.isRunning)[self.mediaServer stop];
+    if (self.mediaServer.isRunning) {
+        [self.mediaServer stop];
+    }
     [self.mediaServer removeAllHandlers];
     
     _fileName = nil;
