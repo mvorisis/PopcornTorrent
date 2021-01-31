@@ -38,33 +38,23 @@
 		23D8E904259CDD3200E33287 /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8E5259CDD3200E33287 /* GCDWebServerPrivate.h */; };
 		23D8E905259CDD3200E33287 /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8E5259CDD3200E33287 /* GCDWebServerPrivate.h */; };
 		23D8E906259CDD3200E33287 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8E6259CDD3200E33287 /* GCDWebServerResponse.m */; };
-		23D8E907259CDD3200E33287 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8E6259CDD3200E33287 /* GCDWebServerResponse.m */; };
 		23D8E908259CDD3200E33287 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8E6259CDD3200E33287 /* GCDWebServerResponse.m */; };
-		23D8E909259CDD3200E33287 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8E6259CDD3200E33287 /* GCDWebServerResponse.m */; };
 		23D8E90A259CDD3200E33287 /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8E7259CDD3200E33287 /* GCDWebServerConnection.h */; };
 		23D8E90B259CDD3200E33287 /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8E7259CDD3200E33287 /* GCDWebServerConnection.h */; };
 		23D8E90C259CDD3200E33287 /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8E8259CDD3200E33287 /* GCDWebServer.h */; };
 		23D8E90D259CDD3200E33287 /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8E8259CDD3200E33287 /* GCDWebServer.h */; };
 		23D8E90E259CDD3200E33287 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8E9259CDD3200E33287 /* GCDWebServerRequest.m */; };
-		23D8E90F259CDD3200E33287 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8E9259CDD3200E33287 /* GCDWebServerRequest.m */; };
 		23D8E910259CDD3200E33287 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8E9259CDD3200E33287 /* GCDWebServerRequest.m */; };
-		23D8E911259CDD3200E33287 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8E9259CDD3200E33287 /* GCDWebServerRequest.m */; };
 		23D8E912259CDD3200E33287 /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8EA259CDD3200E33287 /* GCDWebServerHTTPStatusCodes.h */; };
 		23D8E913259CDD3200E33287 /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8EA259CDD3200E33287 /* GCDWebServerHTTPStatusCodes.h */; };
 		23D8E914259CDD3200E33287 /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8EB259CDD3200E33287 /* GCDWebServerResponse.h */; };
 		23D8E915259CDD3200E33287 /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8EB259CDD3200E33287 /* GCDWebServerResponse.h */; };
 		23D8E916259CDD3200E33287 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8EC259CDD3200E33287 /* GCDWebServerFunctions.m */; };
-		23D8E917259CDD3200E33287 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8EC259CDD3200E33287 /* GCDWebServerFunctions.m */; };
 		23D8E918259CDD3200E33287 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8EC259CDD3200E33287 /* GCDWebServerFunctions.m */; };
-		23D8E919259CDD3200E33287 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8EC259CDD3200E33287 /* GCDWebServerFunctions.m */; };
 		23D8E91A259CDD3200E33287 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8ED259CDD3200E33287 /* GCDWebServer.m */; };
-		23D8E91B259CDD3200E33287 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8ED259CDD3200E33287 /* GCDWebServer.m */; };
 		23D8E91C259CDD3200E33287 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8ED259CDD3200E33287 /* GCDWebServer.m */; };
-		23D8E91D259CDD3200E33287 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8ED259CDD3200E33287 /* GCDWebServer.m */; };
 		23D8E91E259CDD3200E33287 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8EE259CDD3200E33287 /* GCDWebServerConnection.m */; };
-		23D8E91F259CDD3200E33287 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8EE259CDD3200E33287 /* GCDWebServerConnection.m */; };
 		23D8E920259CDD3200E33287 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8EE259CDD3200E33287 /* GCDWebServerConnection.m */; };
-		23D8E921259CDD3200E33287 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8EE259CDD3200E33287 /* GCDWebServerConnection.m */; };
 		23D8E922259CDD3300E33287 /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8EF259CDD3200E33287 /* GCDWebServerRequest.h */; };
 		23D8E923259CDD3300E33287 /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8EF259CDD3200E33287 /* GCDWebServerRequest.h */; };
 		23D8E924259CDD3300E33287 /* GCDWebServerFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8F1259CDD3200E33287 /* GCDWebServerFileResponse.h */; };
@@ -72,25 +62,17 @@
 		23D8E926259CDD3300E33287 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8F2259CDD3200E33287 /* GCDWebServerStreamedResponse.h */; };
 		23D8E927259CDD3300E33287 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8F2259CDD3200E33287 /* GCDWebServerStreamedResponse.h */; };
 		23D8E928259CDD3300E33287 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8F3259CDD3200E33287 /* GCDWebServerErrorResponse.m */; };
-		23D8E929259CDD3300E33287 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8F3259CDD3200E33287 /* GCDWebServerErrorResponse.m */; };
 		23D8E92A259CDD3300E33287 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8F3259CDD3200E33287 /* GCDWebServerErrorResponse.m */; };
-		23D8E92B259CDD3300E33287 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8F3259CDD3200E33287 /* GCDWebServerErrorResponse.m */; };
 		23D8E92C259CDD3300E33287 /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8F4259CDD3200E33287 /* GCDWebServerDataResponse.h */; };
 		23D8E92D259CDD3300E33287 /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8F4259CDD3200E33287 /* GCDWebServerDataResponse.h */; };
 		23D8E92E259CDD3300E33287 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8F5259CDD3200E33287 /* GCDWebServerFileResponse.m */; };
-		23D8E92F259CDD3300E33287 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8F5259CDD3200E33287 /* GCDWebServerFileResponse.m */; };
 		23D8E930259CDD3300E33287 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8F5259CDD3200E33287 /* GCDWebServerFileResponse.m */; };
-		23D8E931259CDD3300E33287 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8F5259CDD3200E33287 /* GCDWebServerFileResponse.m */; };
 		23D8E932259CDD3300E33287 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8F6259CDD3200E33287 /* GCDWebServerDataResponse.m */; };
-		23D8E933259CDD3300E33287 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8F6259CDD3200E33287 /* GCDWebServerDataResponse.m */; };
 		23D8E934259CDD3300E33287 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8F6259CDD3200E33287 /* GCDWebServerDataResponse.m */; };
-		23D8E935259CDD3300E33287 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8F6259CDD3200E33287 /* GCDWebServerDataResponse.m */; };
 		23D8E936259CDD3300E33287 /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8F7259CDD3200E33287 /* GCDWebServerErrorResponse.h */; };
 		23D8E937259CDD3300E33287 /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8F7259CDD3200E33287 /* GCDWebServerErrorResponse.h */; };
 		23D8E938259CDD3300E33287 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8F8259CDD3200E33287 /* GCDWebServerStreamedResponse.m */; };
-		23D8E939259CDD3300E33287 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8F8259CDD3200E33287 /* GCDWebServerStreamedResponse.m */; };
 		23D8E93A259CDD3300E33287 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8F8259CDD3200E33287 /* GCDWebServerStreamedResponse.m */; };
-		23D8E93B259CDD3300E33287 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8F8259CDD3200E33287 /* GCDWebServerStreamedResponse.m */; };
 		23D8E93C259CDD3300E33287 /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8FA259CDD3200E33287 /* GCDWebServerDataRequest.h */; };
 		23D8E93D259CDD3300E33287 /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8FA259CDD3200E33287 /* GCDWebServerDataRequest.h */; };
 		23D8E93E259CDD3300E33287 /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8FB259CDD3200E33287 /* GCDWebServerMultiPartFormRequest.h */; };
@@ -98,34 +80,23 @@
 		23D8E940259CDD3300E33287 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8FC259CDD3200E33287 /* GCDWebServerFileRequest.h */; };
 		23D8E941259CDD3300E33287 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8FC259CDD3200E33287 /* GCDWebServerFileRequest.h */; };
 		23D8E942259CDD3300E33287 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8FD259CDD3200E33287 /* GCDWebServerURLEncodedFormRequest.m */; };
-		23D8E943259CDD3300E33287 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8FD259CDD3200E33287 /* GCDWebServerURLEncodedFormRequest.m */; };
 		23D8E944259CDD3300E33287 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8FD259CDD3200E33287 /* GCDWebServerURLEncodedFormRequest.m */; };
-		23D8E945259CDD3300E33287 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8FD259CDD3200E33287 /* GCDWebServerURLEncodedFormRequest.m */; };
 		23D8E946259CDD3300E33287 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8FE259CDD3200E33287 /* GCDWebServerMultiPartFormRequest.m */; };
-		23D8E947259CDD3300E33287 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8FE259CDD3200E33287 /* GCDWebServerMultiPartFormRequest.m */; };
 		23D8E948259CDD3300E33287 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8FE259CDD3200E33287 /* GCDWebServerMultiPartFormRequest.m */; };
-		23D8E949259CDD3300E33287 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8FE259CDD3200E33287 /* GCDWebServerMultiPartFormRequest.m */; };
 		23D8E94A259CDD3300E33287 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8FF259CDD3200E33287 /* GCDWebServerDataRequest.m */; };
-		23D8E94B259CDD3300E33287 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8FF259CDD3200E33287 /* GCDWebServerDataRequest.m */; };
 		23D8E94C259CDD3300E33287 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8FF259CDD3200E33287 /* GCDWebServerDataRequest.m */; };
-		23D8E94D259CDD3300E33287 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E8FF259CDD3200E33287 /* GCDWebServerDataRequest.m */; };
 		23D8E94E259CDD3300E33287 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E900259CDD3200E33287 /* GCDWebServerFileRequest.m */; };
-		23D8E94F259CDD3300E33287 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E900259CDD3200E33287 /* GCDWebServerFileRequest.m */; };
 		23D8E950259CDD3300E33287 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E900259CDD3200E33287 /* GCDWebServerFileRequest.m */; };
-		23D8E951259CDD3300E33287 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8E900259CDD3200E33287 /* GCDWebServerFileRequest.m */; };
 		23D8E952259CDD3300E33287 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E901259CDD3200E33287 /* GCDWebServerURLEncodedFormRequest.h */; };
 		23D8E953259CDD3300E33287 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E901259CDD3200E33287 /* GCDWebServerURLEncodedFormRequest.h */; };
 		23D8E97C259CE0EF00E33287 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D8E97B259CE0EF00E33287 /* MobileCoreServices.framework */; };
 		23D8E97E259CE0F800E33287 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D8E97D259CE0F800E33287 /* SystemConfiguration.framework */; };
-		4D0699F41D96F56100D17065 /* PopcornTorrentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F43411CA37CF800955B33 /* PopcornTorrentTests.m */; };
 		4D1440261E9AF45500B78269 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D1440291E9AF45500B78269 /* Localizable.strings */; };
 		4D1440271E9AF45500B78269 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D1440291E9AF45500B78269 /* Localizable.strings */; };
 		4D2996671EE431B600737894 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2996661EE431B600737894 /* MediaPlayer.framework */; };
 		4D29966B1EE4C4E400737894 /* PTTorrentDownloadManagerListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D29966A1EE4C4E400737894 /* PTTorrentDownloadManagerListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D29966C1EE4C4E400737894 /* PTTorrentDownloadManagerListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D29966A1EE4C4E400737894 /* PTTorrentDownloadManagerListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D8794EF1F0ED71000F41C6A /* iOSPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D8794F11F0ED71000F41C6A /* iOSPlist.strings */; };
-		4D8794F41F0ED71100F41C6A /* iOSPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D8794F61F0ED71100F41C6A /* iOSPlist.strings */; };
-		4D8794F91F0ED71200F41C6A /* tvOSPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D8794FB1F0ED71200F41C6A /* tvOSPlist.strings */; };
 		4D8794FF1F0ED71300F41C6A /* tvOSPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D8795011F0ED71300F41C6A /* tvOSPlist.strings */; };
 		4D97E73D1D99A3BE009FEF7E /* alert_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D97E6E71D99A3BE009FEF7E /* alert_manager.cpp */; };
 		4D97E73E1D99A3BE009FEF7E /* alert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D97E6E81D99A3BE009FEF7E /* alert.cpp */; };
@@ -233,7 +204,6 @@
 		4D97E8581D99A56C009FEF7E /* routing_table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D97E8431D99A56C009FEF7E /* routing_table.cpp */; };
 		4D97E85A1D99A56C009FEF7E /* rpc_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D97E8441D99A56C009FEF7E /* rpc_manager.cpp */; };
 		4D97E85C1D99A56C009FEF7E /* traversal_algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D97E8451D99A56C009FEF7E /* traversal_algorithm.cpp */; };
-		4D97E87A1D99C2EF009FEF7E /* PopcornTorrent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D97E8711D99C2EF009FEF7E /* PopcornTorrent.framework */; };
 		4D97E8881D99C422009FEF7E /* codecvt_error_category.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D97E7951D99A49A009FEF7E /* codecvt_error_category.cpp */; };
 		4D97E8891D99C422009FEF7E /* operations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D97E7961D99A49A009FEF7E /* operations.cpp */; };
 		4D97E88A1D99C422009FEF7E /* path_traits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D97E7971D99A49A009FEF7E /* path_traits.cpp */; };
@@ -342,9 +312,6 @@
 		4D97E9011D99C450009FEF7E /* traversal_algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D97E8451D99A56C009FEF7E /* traversal_algorithm.cpp */; };
 		4D97E9021D99C456009FEF7E /* PTTorrentStreamer.h in Headers */ = {isa = PBXBuildFile; fileRef = 922F43A91CA37F0200955B33 /* PTTorrentStreamer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D97E9031D99C459009FEF7E /* PTTorrentStreamer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 922F43AA1CA37F0200955B33 /* PTTorrentStreamer.mm */; };
-		4D9E49891DAEC1D300BBD753 /* Test.torrent in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E49871DAEC1CD00BBD753 /* Test.torrent */; settings = {ASSET_TAGS = (TestTorrent, ); }; };
-		4D9E498A1DAEC1D400BBD753 /* Test.torrent in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E49871DAEC1CD00BBD753 /* Test.torrent */; settings = {ASSET_TAGS = (TestTorrent, ); }; };
-		4D9E498B1DAEC26E00BBD753 /* PopcornTorrentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F43411CA37CF800955B33 /* PopcornTorrentTests.m */; };
 		4DBE9EFA1ED9DA5F004F1B52 /* PTTorrentDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBE9EF81ED9DA5F004F1B52 /* PTTorrentDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DBE9EFB1ED9DA5F004F1B52 /* PTTorrentDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBE9EF81ED9DA5F004F1B52 /* PTTorrentDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DBE9EFC1ED9DA5F004F1B52 /* PTTorrentDownload.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4DBE9EF91ED9DA5F004F1B52 /* PTTorrentDownload.mm */; };
@@ -378,7 +345,6 @@
 		926516631CEA69A6000F57D4 /* PTTorrentStreamer.h in Headers */ = {isa = PBXBuildFile; fileRef = 922F43A91CA37F0200955B33 /* PTTorrentStreamer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9032E7A204E1220009764C0 /* asio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9032E79204E1220009764C0 /* asio.cpp */; };
 		D9032E7B204E1270009764C0 /* asio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9032E79204E1220009764C0 /* asio.cpp */; };
-		D91570A71D6B927C00C6C848 /* PopcornTorrent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265166A1CEA69A6000F57D4 /* PopcornTorrent.framework */; };
 		D964E455204B77AA00AF8E30 /* cpuid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D964E42A204B77A300AF8E30 /* cpuid.cpp */; };
 		D964E456204B77AA00AF8E30 /* crc32c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D964E42B204B77A400AF8E30 /* crc32c.cpp */; };
 		D964E457204B77AA00AF8E30 /* announce_entry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D964E42C204B77A400AF8E30 /* announce_entry.cpp */; };
@@ -515,23 +481,6 @@
 		D9CEEA9D227DCA3B00DBAD3A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CEEA9C227DCA3B00DBAD3A /* SystemConfiguration.framework */; };
 		D9CEEA9F227DCA4300DBAD3A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CEEA9E227DCA4300DBAD3A /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4D97E87B1D99C2EF009FEF7E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 922F43291CA37CF800955B33 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D97E8701D99C2EF009FEF7E;
-			remoteInfo = "PopcornTorrent tvOS";
-		};
-		D91570A81D6B927C00C6C848 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 922F43291CA37CF800955B33 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 926516581CEA69A6000F57D4;
-			remoteInfo = "PopcornTorrent-iOS";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		21E21F6825C0E4DD001BD8F9 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
@@ -690,7 +639,6 @@
 		4D97E8441D99A56C009FEF7E /* rpc_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rpc_manager.cpp; path = torrent/kademlia/rpc_manager.cpp; sourceTree = "<group>"; };
 		4D97E8451D99A56C009FEF7E /* traversal_algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = traversal_algorithm.cpp; path = torrent/kademlia/traversal_algorithm.cpp; sourceTree = "<group>"; };
 		4D97E8711D99C2EF009FEF7E /* PopcornTorrent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopcornTorrent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D97E8791D99C2EF009FEF7E /* PopcornTorrent tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PopcornTorrent tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9E49871DAEC1CD00BBD753 /* Test.torrent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test.torrent; sourceTree = "<group>"; };
 		4DBE9EF81ED9DA5F004F1B52 /* PTTorrentDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTTorrentDownload.h; sourceTree = "<group>"; };
 		4DBE9EF91ED9DA5F004F1B52 /* PTTorrentDownload.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PTTorrentDownload.mm; sourceTree = "<group>"; };
@@ -723,7 +671,6 @@
 		922F43AA1CA37F0200955B33 /* PTTorrentStreamer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PTTorrentStreamer.mm; sourceTree = "<group>"; };
 		9265166A1CEA69A6000F57D4 /* PopcornTorrent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopcornTorrent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9032E79204E1220009764C0 /* asio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = asio.cpp; path = torrent/asio.cpp; sourceTree = "<group>"; };
-		D91570A21D6B927C00C6C848 /* PopcornTorrent iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PopcornTorrent iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D964E42A204B77A300AF8E30 /* cpuid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuid.cpp; path = torrent/cpuid.cpp; sourceTree = "<group>"; };
 		D964E42B204B77A400AF8E30 /* crc32c.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = crc32c.cpp; path = torrent/crc32c.cpp; sourceTree = "<group>"; };
 		D964E42C204B77A400AF8E30 /* announce_entry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = announce_entry.cpp; path = torrent/announce_entry.cpp; sourceTree = "<group>"; };
@@ -807,14 +754,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D97E8761D99C2EF009FEF7E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D97E87A1D99C2EF009FEF7E /* PopcornTorrent.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9265165D1CEA69A6000F57D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -823,14 +762,6 @@
 				D9CEEA9F227DCA4300DBAD3A /* SystemConfiguration.framework in Frameworks */,
 				23D8E97E259CE0F800E33287 /* SystemConfiguration.framework in Frameworks */,
 				D964E4B9204B86BE00AF8E30 /* MediaPlayer.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D915709F1D6B927C00C6C848 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D91570A71D6B927C00C6C848 /* PopcornTorrent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1167,9 +1098,7 @@
 			isa = PBXGroup;
 			children = (
 				9265166A1CEA69A6000F57D4 /* PopcornTorrent.framework */,
-				D91570A21D6B927C00C6C848 /* PopcornTorrent iOSTests.xctest */,
 				4D97E8711D99C2EF009FEF7E /* PopcornTorrent.framework */,
-				4D97E8791D99C2EF009FEF7E /* PopcornTorrent tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1331,24 +1260,6 @@
 			productReference = 4D97E8711D99C2EF009FEF7E /* PopcornTorrent.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4D97E8781D99C2EF009FEF7E /* PopcornTorrent tvOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4D97E8851D99C2EF009FEF7E /* Build configuration list for PBXNativeTarget "PopcornTorrent tvOSTests" */;
-			buildPhases = (
-				4D97E8751D99C2EF009FEF7E /* Sources */,
-				4D97E8761D99C2EF009FEF7E /* Frameworks */,
-				4D97E8771D99C2EF009FEF7E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4D97E87C1D99C2EF009FEF7E /* PBXTargetDependency */,
-			);
-			name = "PopcornTorrent tvOSTests";
-			productName = "PopcornTorrent tvOSTests";
-			productReference = 4D97E8791D99C2EF009FEF7E /* PopcornTorrent tvOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		926516581CEA69A6000F57D4 /* PopcornTorrent iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 926516671CEA69A6000F57D4 /* Build configuration list for PBXNativeTarget "PopcornTorrent iOS" */;
@@ -1366,24 +1277,6 @@
 			productName = PopcornTorrent;
 			productReference = 9265166A1CEA69A6000F57D4 /* PopcornTorrent.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		D91570A11D6B927C00C6C848 /* PopcornTorrent iOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D91570AA1D6B927C00C6C848 /* Build configuration list for PBXNativeTarget "PopcornTorrent iOSTests" */;
-			buildPhases = (
-				D915709E1D6B927C00C6C848 /* Sources */,
-				D915709F1D6B927C00C6C848 /* Frameworks */,
-				D91570A01D6B927C00C6C848 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D91570A91D6B927C00C6C848 /* PBXTargetDependency */,
-			);
-			name = "PopcornTorrent iOSTests";
-			productName = PopcornTorrentTestsIOS;
-			productReference = D91570A21D6B927C00C6C848 /* PopcornTorrent iOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -1411,13 +1304,6 @@
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Manual;
 					};
-					4D97E8781D99C2EF009FEF7E = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-					};
-					D91570A11D6B927C00C6C848 = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
 				};
 			};
 			buildConfigurationList = 922F432C1CA37CF800955B33 /* Build configuration list for PBXProject "PopcornTorrent" */;
@@ -1438,9 +1324,7 @@
 			projectRoot = "";
 			targets = (
 				926516581CEA69A6000F57D4 /* PopcornTorrent iOS */,
-				D91570A11D6B927C00C6C848 /* PopcornTorrent iOSTests */,
 				4D97E8701D99C2EF009FEF7E /* PopcornTorrent tvOS */,
-				4D97E8781D99C2EF009FEF7E /* PopcornTorrent tvOSTests */,
 				4D97E8621D99B5E6009FEF7E /* PopcornTorrent Universal iOS */,
 				4D97E8671D99C1B0009FEF7E /* PopcornTorrent Universal tvOS */,
 			);
@@ -1459,15 +1343,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D97E8771D99C2EF009FEF7E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D9E498A1DAEC1D400BBD753 /* Test.torrent in Resources */,
-				4D8794F91F0ED71200F41C6A /* tvOSPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		926516661CEA69A6000F57D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1476,15 +1351,6 @@
 				D964E46F204B77AA00AF8E30 /* Makefile.am in Resources */,
 				4D1440261E9AF45500B78269 /* Localizable.strings in Resources */,
 				4D8794EF1F0ED71000F41C6A /* iOSPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D91570A01D6B927C00C6C848 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D9E49891DAEC1D300BBD753 /* Test.torrent in Resources */,
-				4D8794F41F0ED71100F41C6A /* iOSPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1713,27 +1579,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D97E8751D99C2EF009FEF7E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23D8E935259CDD3300E33287 /* GCDWebServerDataResponse.m in Sources */,
-				23D8E94D259CDD3300E33287 /* GCDWebServerDataRequest.m in Sources */,
-				4D9E498B1DAEC26E00BBD753 /* PopcornTorrentTests.m in Sources */,
-				23D8E911259CDD3200E33287 /* GCDWebServerRequest.m in Sources */,
-				23D8E92B259CDD3300E33287 /* GCDWebServerErrorResponse.m in Sources */,
-				23D8E945259CDD3300E33287 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
-				23D8E921259CDD3200E33287 /* GCDWebServerConnection.m in Sources */,
-				23D8E919259CDD3200E33287 /* GCDWebServerFunctions.m in Sources */,
-				23D8E949259CDD3300E33287 /* GCDWebServerMultiPartFormRequest.m in Sources */,
-				23D8E91D259CDD3200E33287 /* GCDWebServer.m in Sources */,
-				23D8E951259CDD3300E33287 /* GCDWebServerFileRequest.m in Sources */,
-				23D8E909259CDD3200E33287 /* GCDWebServerResponse.m in Sources */,
-				23D8E93B259CDD3300E33287 /* GCDWebServerStreamedResponse.m in Sources */,
-				23D8E931259CDD3300E33287 /* GCDWebServerFileResponse.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		926516591CEA69A6000F57D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1925,41 +1770,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D915709E1D6B927C00C6C848 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23D8E933259CDD3300E33287 /* GCDWebServerDataResponse.m in Sources */,
-				23D8E94B259CDD3300E33287 /* GCDWebServerDataRequest.m in Sources */,
-				4D0699F41D96F56100D17065 /* PopcornTorrentTests.m in Sources */,
-				23D8E90F259CDD3200E33287 /* GCDWebServerRequest.m in Sources */,
-				23D8E929259CDD3300E33287 /* GCDWebServerErrorResponse.m in Sources */,
-				23D8E943259CDD3300E33287 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
-				23D8E91F259CDD3200E33287 /* GCDWebServerConnection.m in Sources */,
-				23D8E917259CDD3200E33287 /* GCDWebServerFunctions.m in Sources */,
-				23D8E947259CDD3300E33287 /* GCDWebServerMultiPartFormRequest.m in Sources */,
-				23D8E91B259CDD3200E33287 /* GCDWebServer.m in Sources */,
-				23D8E94F259CDD3300E33287 /* GCDWebServerFileRequest.m in Sources */,
-				23D8E907259CDD3200E33287 /* GCDWebServerResponse.m in Sources */,
-				23D8E939259CDD3300E33287 /* GCDWebServerStreamedResponse.m in Sources */,
-				23D8E92F259CDD3300E33287 /* GCDWebServerFileResponse.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4D97E87C1D99C2EF009FEF7E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4D97E8701D99C2EF009FEF7E /* PopcornTorrent tvOS */;
-			targetProxy = 4D97E87B1D99C2EF009FEF7E /* PBXContainerItemProxy */;
-		};
-		D91570A91D6B927C00C6C848 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 926516581CEA69A6000F57D4 /* PopcornTorrent iOS */;
-			targetProxy = D91570A81D6B927C00C6C848 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4D1440291E9AF45500B78269 /* Localizable.strings */ = {
@@ -2142,32 +1953,6 @@
 				SKIP_INSTALL = YES;
 				TVOS_DEPLOYMENT_TARGET = 12.0;
 				USER_HEADER_SEARCH_PATHS = "/usr/include/net /usr/include/netinet/";
-			};
-			name = Release;
-		};
-		4D97E8861D99C2EF009FEF7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/PopcornTorrentTests/tvOS.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntorrent.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TVOS_DEPLOYMENT_TARGET = 12.0;
-			};
-			name = Debug;
-		};
-		4D97E8871D99C2EF009FEF7E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/PopcornTorrentTests/tvOS.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntorrent.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -2367,38 +2152,6 @@
 			};
 			name = Release;
 		};
-		D91570AB1D6B927C00C6C848 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "$(SRCROOT)/PopcornTorrentTests/iOS.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntorrent.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 12.0;
-			};
-			name = Debug;
-		};
-		D91570AC1D6B927C00C6C848 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "$(SRCROOT)/PopcornTorrentTests/iOS.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntorrent.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 12.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2429,15 +2182,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D97E8851D99C2EF009FEF7E /* Build configuration list for PBXNativeTarget "PopcornTorrent tvOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D97E8861D99C2EF009FEF7E /* Debug */,
-				4D97E8871D99C2EF009FEF7E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		922F432C1CA37CF800955B33 /* Build configuration list for PBXProject "PopcornTorrent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2452,15 +2196,6 @@
 			buildConfigurations = (
 				926516681CEA69A6000F57D4 /* Debug */,
 				926516691CEA69A6000F57D4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D91570AA1D6B927C00C6C848 /* Build configuration list for PBXNativeTarget "PopcornTorrent iOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D91570AB1D6B927C00C6C848 /* Debug */,
-				D91570AC1D6B927C00C6C848 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
