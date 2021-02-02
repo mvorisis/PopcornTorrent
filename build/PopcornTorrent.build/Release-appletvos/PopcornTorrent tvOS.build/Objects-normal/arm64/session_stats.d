@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/PopcornTorrent/Source/torrent/session_stats.cpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/session_stats.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/config.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/disable_warnings_push.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/user.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/detail/select_compiler_config.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/compiler/clang.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/detail/select_stdlib_config.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/stdlib/libcpp.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/detail/select_platform_config.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/platform/macos.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/detail/posix_features.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/detail/suffix.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/disable_warnings_pop.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/export.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/deprecated.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/string_view.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/version.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/utility/string_view.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/detail/workaround.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/workaround.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/utility/string_view_fwd.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/throw_exception.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/exception/exception.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/current_function.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/container_hash/hash_fwd.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/vector.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/container_wrapper.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/assert.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/index_range.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/units.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/performance_counters.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/array.hpp

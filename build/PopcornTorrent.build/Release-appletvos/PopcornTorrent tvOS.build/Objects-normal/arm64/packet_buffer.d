@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/PopcornTorrent/Source/torrent/packet_buffer.cpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/packet_buffer.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/config.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/disable_warnings_push.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/user.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/detail/select_compiler_config.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/compiler/clang.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/detail/select_stdlib_config.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/stdlib/libcpp.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/detail/select_platform_config.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/platform/macos.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/detail/posix_features.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/detail/suffix.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/disable_warnings_pop.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/export.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/deprecated.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/unique_ptr.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/units.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/assert.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/packet_pool.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/throw.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/vector.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/container_wrapper.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/index_range.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/numeric_cast.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/time.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/debug.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/invariant_check.hpp

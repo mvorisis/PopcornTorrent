@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/PopcornTorrent/Source/torrent/sha1.cpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/sha1.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/config.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/disable_warnings_push.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/user.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/detail/select_compiler_config.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/compiler/clang.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/detail/select_stdlib_config.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/stdlib/libcpp.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/detail/select_platform_config.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/platform/macos.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/detail/posix_features.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/config/detail/suffix.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/disable_warnings_pop.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/export.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/libtorrent/aux_/deprecated.hpp \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/other/endian.h \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/version_number.h \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/make.h \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/detail/test.h \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/library/c/gnu.h \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/library/c/_prefix.h \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/detail/_cassert.h \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/os/macos.h \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/os/ios.h \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/detail/os_detected.h \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/os/bsd.h \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/os/bsd/bsdi.h \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/os/bsd/dragonfly.h \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/os/bsd/free.h \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/os/bsd/open.h \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/os/bsd/net.h \
+  /Users/vorisis/Desktop/gits/PopcornTorrent/include/boost/predef/os/android.h

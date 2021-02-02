@@ -6,31 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		4D97E8621D99B5E6009FEF7E /* PopcornTorrent Universal iOS */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 4D97E8631D99B5E6009FEF7E /* Build configuration list for PBXAggregateTarget "PopcornTorrent Universal iOS" */;
-			buildPhases = (
-				4D97E8661D99B619009FEF7E /* Universal Binary */,
-			);
-			dependencies = (
-			);
-			name = "PopcornTorrent Universal iOS";
-			productName = "PopcornTorrent Universal iOS";
-		};
-		4D97E8671D99C1B0009FEF7E /* PopcornTorrent Universal tvOS */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 4D97E8681D99C1B0009FEF7E /* Build configuration list for PBXAggregateTarget "PopcornTorrent Universal tvOS" */;
-			buildPhases = (
-				4D97E86B1D99C1B4009FEF7E /* Universal Binary */,
-			);
-			dependencies = (
-			);
-			name = "PopcornTorrent Universal tvOS";
-			productName = "PopcornTorrent Universal tvOS";
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		21E21F6925C0E4DD001BD8F9 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E21F6825C0E4DD001BD8F9 /* CoreServices.framework */; };
 		23D8E902259CDD3200E33287 /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8E8E4259CDD3200E33287 /* GCDWebServerFunctions.h */; };
@@ -522,16 +497,10 @@
 		4D5D79061F21899400E2542E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4D5D79071F21899400E2542E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/tvOSPlist.strings; sourceTree = "<group>"; };
 		4D5D79081F21899400E2542E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/iOSPlist.strings; sourceTree = "<group>"; };
-		4D5D79091F21899400E2542E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/tvOSPlist.strings; sourceTree = "<group>"; };
-		4D5D790A1F21899500E2542E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/iOSPlist.strings; sourceTree = "<group>"; };
 		4D8794F01F0ED71000F41C6A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/iOSPlist.strings"; sourceTree = "<group>"; };
-		4D8794F51F0ED71100F41C6A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/iOSPlist.strings"; sourceTree = "<group>"; };
-		4D8794FA1F0ED71200F41C6A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/tvOSPlist.strings"; sourceTree = "<group>"; };
 		4D8794FC1F0ED71200F41C6A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		4D8795001F0ED71300F41C6A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/tvOSPlist.strings"; sourceTree = "<group>"; };
 		4D95BF351EA23398000BFE70 /* tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = tvOS.plist; path = "Supporting Files/tvOS.plist"; sourceTree = "<group>"; };
-		4D95BF361EA2340A000BFE70 /* iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iOS.plist; sourceTree = "<group>"; };
-		4D95BF371EA2340A000BFE70 /* tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tvOS.plist; sourceTree = "<group>"; };
 		4D97E6E71D99A3BE009FEF7E /* alert_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = alert_manager.cpp; path = torrent/alert_manager.cpp; sourceTree = "<group>"; };
 		4D97E6E81D99A3BE009FEF7E /* alert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = alert.cpp; path = torrent/alert.cpp; sourceTree = "<group>"; };
 		4D97E6EB1D99A3BE009FEF7E /* assert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = assert.cpp; path = torrent/assert.cpp; sourceTree = "<group>"; };
@@ -639,7 +608,6 @@
 		4D97E8441D99A56C009FEF7E /* rpc_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rpc_manager.cpp; path = torrent/kademlia/rpc_manager.cpp; sourceTree = "<group>"; };
 		4D97E8451D99A56C009FEF7E /* traversal_algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = traversal_algorithm.cpp; path = torrent/kademlia/traversal_algorithm.cpp; sourceTree = "<group>"; };
 		4D97E8711D99C2EF009FEF7E /* PopcornTorrent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopcornTorrent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D9E49871DAEC1CD00BBD753 /* Test.torrent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test.torrent; sourceTree = "<group>"; };
 		4DBE9EF81ED9DA5F004F1B52 /* PTTorrentDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTTorrentDownload.h; sourceTree = "<group>"; };
 		4DBE9EF91ED9DA5F004F1B52 /* PTTorrentDownload.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PTTorrentDownload.mm; sourceTree = "<group>"; };
 		4DBE9EFE1ED9DBE0004F1B52 /* PTTorrentDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTTorrentDownloadManager.h; sourceTree = "<group>"; };
@@ -653,20 +621,15 @@
 		4DD9B3E01F10EFE2004745DB /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4DD9B3E11F10EFE2004745DB /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/tvOSPlist.strings; sourceTree = "<group>"; };
 		4DD9B3E21F10EFE2004745DB /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/iOSPlist.strings; sourceTree = "<group>"; };
-		4DD9B3E31F10EFE2004745DB /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/tvOSPlist.strings; sourceTree = "<group>"; };
-		4DD9B3E41F10EFE3004745DB /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/iOSPlist.strings; sourceTree = "<group>"; };
 		4DD9B3E51F116B34004745DB /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4DD9B3E61F116B34004745DB /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/tvOSPlist.strings; sourceTree = "<group>"; };
 		4DD9B3E71F116B34004745DB /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/iOSPlist.strings; sourceTree = "<group>"; };
-		4DD9B3E81F116B34004745DB /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/tvOSPlist.strings; sourceTree = "<group>"; };
-		4DD9B3E91F116B35004745DB /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/iOSPlist.strings; sourceTree = "<group>"; };
 		4DF87B061EE09635006CCBB7 /* CocoaSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocoaSecurity.h; path = Security/CocoaSecurity.h; sourceTree = "<group>"; };
 		4DF87B071EE09635006CCBB7 /* CocoaSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CocoaSecurity.m; path = Security/CocoaSecurity.m; sourceTree = "<group>"; };
 		4DFBACF81E990591009A5E35 /* iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iOS.plist; path = "Supporting Files/iOS.plist"; sourceTree = "<group>"; };
 		4DFBACF91E990591009A5E35 /* PopcornTorrent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopcornTorrent.h; path = "Supporting Files/PopcornTorrent.h"; sourceTree = "<group>"; };
 		4DFBAD061E990BA7009A5E35 /* NSString+Localization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Localization.h"; path = "Supporting Files/NSString+Localization.h"; sourceTree = "<group>"; };
 		4DFBAD071E990BA7009A5E35 /* NSString+Localization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Localization.m"; path = "Supporting Files/NSString+Localization.m"; sourceTree = "<group>"; };
-		922F43411CA37CF800955B33 /* PopcornTorrentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopcornTorrentTests.m; sourceTree = "<group>"; };
 		922F43A91CA37F0200955B33 /* PTTorrentStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTTorrentStreamer.h; sourceTree = "<group>"; };
 		922F43AA1CA37F0200955B33 /* PTTorrentStreamer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PTTorrentStreamer.mm; sourceTree = "<group>"; };
 		9265166A1CEA69A6000F57D4 /* PopcornTorrent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopcornTorrent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1088,7 +1051,6 @@
 			isa = PBXGroup;
 			children = (
 				922F43341CA37CF800955B33 /* PopcornTorrent */,
-				922F43401CA37CF800955B33 /* PopcornTorrentTests */,
 				922F43331CA37CF800955B33 /* Products */,
 				8E2CD12BDC635A45AF0F2F86 /* Frameworks */,
 			);
@@ -1111,19 +1073,6 @@
 				4DFBACF71E990548009A5E35 /* Supporting Files */,
 			);
 			path = PopcornTorrent;
-			sourceTree = "<group>";
-		};
-		922F43401CA37CF800955B33 /* PopcornTorrentTests */ = {
-			isa = PBXGroup;
-			children = (
-				4D8794FB1F0ED71200F41C6A /* tvOSPlist.strings */,
-				4D8794F61F0ED71100F41C6A /* iOSPlist.strings */,
-				4D95BF361EA2340A000BFE70 /* iOS.plist */,
-				4D95BF371EA2340A000BFE70 /* tvOS.plist */,
-				4D9E49871DAEC1CD00BBD753 /* Test.torrent */,
-				922F43411CA37CF800955B33 /* PopcornTorrentTests.m */,
-			);
-			path = PopcornTorrentTests;
 			sourceTree = "<group>";
 		};
 		922F43A71CA37F0200955B33 /* Source */ = {
@@ -1292,14 +1241,6 @@
 				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = PopcornTime;
 				TargetAttributes = {
-					4D97E8621D99B5E6009FEF7E = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-					};
-					4D97E8671D99C1B0009FEF7E = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-					};
 					4D97E8701D99C2EF009FEF7E = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Manual;
@@ -1325,8 +1266,6 @@
 			targets = (
 				926516581CEA69A6000F57D4 /* PopcornTorrent iOS */,
 				4D97E8701D99C2EF009FEF7E /* PopcornTorrent tvOS */,
-				4D97E8621D99B5E6009FEF7E /* PopcornTorrent Universal iOS */,
-				4D97E8671D99C1B0009FEF7E /* PopcornTorrent Universal tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -1355,37 +1294,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4D97E8661D99B619009FEF7E /* Universal Binary */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Universal Binary";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${SRCROOT}/PopcornTorrent/Build/iOS\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -workspace PopcornTorrent.xcworkspace -scheme \"PopcornTorrent iOS\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" OBJROOT=\"${OBJROOT}/DependantBuilds\"\nxcodebuild -workspace PopcornTorrent.xcworkspace -scheme \"PopcornTorrent iOS\" -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" OBJROOT=\"${OBJROOT}/DependantBuilds\"\n\n# make sure the output directory is empty\nrm -rf \"${UNIVERSAL_OUTPUTFOLDER}/*\"\n\n# Step 2. Move framework file to Universal folder.\ncp -r \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n";
-		};
-		4D97E86B1D99C1B4009FEF7E /* Universal Binary */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Universal Binary";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${SRCROOT}/PopcornTorrent/Build/tvOS\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -workspace PopcornTorrent.xcworkspace -scheme \"PopcornTorrent tvOS\" ONLY_ACTIVE_ARCH=NO BITCODE_GENERATION_MODE=bitcode -configuration ${CONFIGURATION} -sdk appletvos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" OBJROOT=\"${OBJROOT}/DependantBuilds\"\nxcodebuild -workspace PopcornTorrent.xcworkspace -scheme \"PopcornTorrent tvOS\" ONLY_ACTIVE_ARCH=NO BITCODE_GENERATION_MODE=bitcode -configuration ${CONFIGURATION} -sdk appletvsimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" OBJROOT=\"${OBJROOT}/DependantBuilds\"\n\n# make sure the output directory is empty\nrm -rf \"${UNIVERSAL_OUTPUTFOLDER}/*\"\n\n# Step 2. Move framework file to Universal folder.\ncp -r \"${BUILD_DIR}/${CONFIGURATION}-appletvsimulator/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-appletvos/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-appletvsimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\notool -arch arm64 -l \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4D97E86C1D99C2EF009FEF7E /* Sources */ = {
@@ -1798,28 +1706,6 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4D8794F61F0ED71100F41C6A /* iOSPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D8794F51F0ED71100F41C6A /* pt-BR */,
-				4DD9B3E41F10EFE3004745DB /* ar */,
-				4DD9B3E91F116B35004745DB /* it */,
-				4D5D790A1F21899500E2542E /* es */,
-			);
-			name = iOSPlist.strings;
-			sourceTree = "<group>";
-		};
-		4D8794FB1F0ED71200F41C6A /* tvOSPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D8794FA1F0ED71200F41C6A /* pt-BR */,
-				4DD9B3E31F10EFE2004745DB /* ar */,
-				4DD9B3E81F116B34004745DB /* it */,
-				4D5D79091F21899400E2542E /* es */,
-			);
-			name = tvOSPlist.strings;
-			sourceTree = "<group>";
-		};
 		4D8795011F0ED71300F41C6A /* tvOSPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1835,45 +1721,10 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4D97E8641D99B5E6009FEF7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		4D97E8651D99B5E6009FEF7E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-			};
-			name = Release;
-		};
-		4D97E8691D99C1B0009FEF7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TVOS_DEPLOYMENT_TARGET = 12.0;
-			};
-			name = Debug;
-		};
-		4D97E86A1D99C1B0009FEF7E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TVOS_DEPLOYMENT_TARGET = 12.0;
-			};
-			name = Release;
-		};
 		4D97E8831D99C2EF009FEF7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1907,7 +1758,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntorrent;
 				PRODUCT_NAME = PopcornTorrent;
-				SKIP_INSTALL = YES;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = NO;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
 				TVOS_DEPLOYMENT_TARGET = 12.0;
 				USER_HEADER_SEARCH_PATHS = "/usr/include/net /usr/include/netinet/";
 			};
@@ -1916,6 +1769,7 @@
 		4D97E8841D99C2EF009FEF7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1950,7 +1804,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntorrent;
 				PRODUCT_NAME = PopcornTorrent;
-				SKIP_INSTALL = YES;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = NO;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
 				TVOS_DEPLOYMENT_TARGET = 12.0;
 				USER_HEADER_SEARCH_PATHS = "/usr/include/net /usr/include/netinet/";
 			};
@@ -2008,7 +1864,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = appletvos;
+				SDKROOT = "appletvos, iphoneos";
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 12.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2061,7 +1917,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = appletvos;
+				SDKROOT = "appletvos, iphoneos";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 12.0;
@@ -2155,24 +2011,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D97E8631D99B5E6009FEF7E /* Build configuration list for PBXAggregateTarget "PopcornTorrent Universal iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D97E8641D99B5E6009FEF7E /* Debug */,
-				4D97E8651D99B5E6009FEF7E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4D97E8681D99C1B0009FEF7E /* Build configuration list for PBXAggregateTarget "PopcornTorrent Universal tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D97E8691D99C1B0009FEF7E /* Debug */,
-				4D97E86A1D99C1B0009FEF7E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4D97E8821D99C2EF009FEF7E /* Build configuration list for PBXNativeTarget "PopcornTorrent tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
